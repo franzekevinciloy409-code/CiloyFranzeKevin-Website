@@ -18,21 +18,22 @@ nav a {
     text-decoration: none;
 }
 
-.hero {
+.hero, .content {
     padding: 40px;
     text-align: center;
     background: white;
+    margin: 20px;
 }
 
-.content {
-    padding: 20px;
-    background: white;
-    margin: 20px;
+.hero-image, .about-image {
+    max-width: 300px;
+    margin-top: 20px;
 }
 
 button {
     padding: 10px 20px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 footer {
@@ -40,5 +41,4 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
 }
